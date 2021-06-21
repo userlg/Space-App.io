@@ -1,5 +1,5 @@
 <?php 
 
-include_once("home.html"); 
+require("home.html"); 
 
 ?>
