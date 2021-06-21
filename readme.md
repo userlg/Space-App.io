@@ -20,6 +20,8 @@
 
 ![](IMG/preview.png)
 
+![](IMG/preview2.png)
+
 ## Link
 
 <https://space-app-io.herokuapp.com/>
