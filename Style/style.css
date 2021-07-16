@@ -247,13 +247,13 @@ p {
 }
 
 #footer {
-  margin-top: 70px;
+  margin-top: 60px;
 }
 
 .marquee {
   height: 40px;
   color: white;
-  background: black;
+  background: #212529;
   width: 100%;
   display: block;
   white-space: nowrap;
