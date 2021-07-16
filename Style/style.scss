@@ -1,13 +1,13 @@
 $primary: #ff9933;
 
 body {
-  background-image: url('/IMG/s7.jpg');
   background-repeat: no-repeat;
-  background-size: cover;
+  background: url('/IMG/s7.jpg') no-repeat center center fixed;
+  background-size: 100% 100%;
   padding: 0px;
   margin: 0px;
-  height: 100%;
-  margin-bottom: 50px;
+  height: 100;
+  //margin-bottom: 50px;
 
 }
 
@@ -281,7 +281,7 @@ button {
 //***************MARQUE EFFECT********
 
 #footer {
-  margin-top: 70px;
+  margin-top: 40px;
 }
 
 .marquee {
@@ -293,6 +293,7 @@ button {
   align-items: center;
   white-space: nowrap;
   overflow: hidden;
+
   span {
     font-size: 18px;
     display: inline-block;
@@ -306,10 +307,10 @@ button {
 
 @-webkit-keyframes scroll {
   0% {
-    -webkit-transform: translate(0,0);
+    -webkit-transform: translate(0, 0);
   }
 
   100% {
-    -webkit-transform: translate(-100%,0);
+    -webkit-transform: translate(-100%, 0);
   }
 }
