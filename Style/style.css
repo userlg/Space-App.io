@@ -255,7 +255,8 @@ p {
   color: white;
   background: #212529;
   width: 100%;
-  display: block;
+  display: flex;
+  align-items: center;
   white-space: nowrap;
   overflow: hidden;
 }
@@ -266,7 +267,7 @@ p {
   margin-top: 2px;
   margin-bottom: 5px;
   vertical-align: middle;
-  -webkit-animation: scroll 25s infinite linear;
+  -webkit-animation: scroll 21s infinite linear;
 }
 
 @-webkit-keyframes scroll {
